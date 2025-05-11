@@ -46,12 +46,15 @@ nav ul li a {
   color: grey;
 }
 
-.bannerText button {
-  background-color: lightgoldenrodyellow;
+.bannerText a {
+  background-image: linear-gradient(to right, orange, red);
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 
 .bannerText2 h3 {
@@ -186,6 +189,11 @@ nav ul li a {
 .content3 p {
   margin-bottom: 20px;
   line-height: 1.6;
+}
+
+.content1 {
+  margin-top: 10px;
+  color: grey;
 }
 
 .content3 button {
@@ -354,4 +362,22 @@ nav ul li a {
 .footer8 {
   text-align: center;
   padding-bottom: 50px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #335dff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #1a3cff;
 }/*# sourceMappingURL=style.css.map */
